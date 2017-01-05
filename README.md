@@ -4,7 +4,15 @@ The code in this repository was create by following the tutorial
 [here](https://www.youtube.com/watch?v=eWmkBNBTbMM).
 
 ## Some notes
+```bash
+npm install webpack@beta -g
+npm install webpack@beta --save-dev
+npm install webpack-dev-server@beta --save-dev
+npm install babel-core babel-loader babel-preset-es2015 babel-preset-stage-0 --save-dev
+```
 
-`npm install webpack@beta -g`
-`npm install webpack@beta --save-dev`
-`npm install webpack-dev-server@beta --save-dev`
+## Watch Log
+
+| Date | Time | Watch To | Comment |
+|------|------|----------|---------|
+| 5/1/17 | 6:35 AM | 36:33 | Stopped after bable section |
