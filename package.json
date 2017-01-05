@@ -1,0 +1,17 @@
+{
+  "name": "webpack-tut",
+  "version": "1.0.0",
+  "description": "The code in this repository was create by following the tutorial [here](https://www.youtube.com/watch?v=eWmkBNBTbMM).",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "webpack src/index.js dist/bundle.js",
+    "clean:build": "npm run clean && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^2.2.0-rc.3"
+  }
+}
