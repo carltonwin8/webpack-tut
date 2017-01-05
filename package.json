@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "webpack src/index.js dist/bundle.js",
+    "build": "webpack --watch",
     "clean:build": "npm run clean && npm run build"
   },
   "author": "",
