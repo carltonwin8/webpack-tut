@@ -7,3 +7,4 @@ The code in this repository was create by following the tutorial
 
 `npm install webpack@beta -g`
 `npm install webpack@beta --save-dev`
+`npm install webpack-dev-server@beta --save-dev`
