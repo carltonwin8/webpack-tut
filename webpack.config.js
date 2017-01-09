@@ -28,8 +28,8 @@ module.exports = {
       loaders: ['babel-loader'],
       exclude: /node_modules/
     }, {
-      test: /\.jpg$/,
-      loaders: ['file-loader'],
+      test: /\.(jpg|png)$/,
+      loaders: ['url-loader?limit=10000&name=images/[hash:12]&name=images/[hash:12].[ext]'],
       exclude: /node_modules/
     }]
   },
