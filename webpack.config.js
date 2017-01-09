@@ -11,7 +11,15 @@ const entry = PRODUCTION
       'webpack-dev-server/client?http://localhost:8080' ];
 
 const plugins = PRODUCTION
-  ? [ ]
+  ? [
+      new webpack.optimize.UglifyJsPlugin({
+        comments: true,
+        mangle: false,
+        compress: {
+          warnings: true
+        }
+      })
+    ]
   : [ new webpack.HotModuleReplacementPlugin() ];
 
 module.exports = {
